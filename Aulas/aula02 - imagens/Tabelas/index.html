@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        table, th, td{
+            margin:auto;
+            border: 2px solid #333;
+            border-collapse: collapse;
+            padding: 0.3rem;
+        }
+        .tabela{
+            margin-top: 2rem;
+            width: 60%;
+            height: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <caption>Minha Tabela</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+            <th>Linguagem</th>
+        </tr>
+        <tr>
+            <td>Vinicius</td>
+            <td>Pires</td>
+            <td>18</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>Almeida</td>
+            <td>22</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Talles</td>
+            <td>Souza</td>
+            <td>23</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Cauã</td>
+            <td>Freitas</td>
+            <td>18</td>
+            <td>Java</td>
+        </tr>
+    <table>
+    <table class="tabela">
+            <caption>Minha Tabela2</caption>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+</body>
+</html>
