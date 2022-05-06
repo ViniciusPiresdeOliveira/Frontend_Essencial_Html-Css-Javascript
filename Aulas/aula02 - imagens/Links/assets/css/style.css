@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+img{
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 25px;
+    color: #1d9a9a;
+}
+a:visited{
+    color: #e50b0b;
+}    
+a:hover{
+    color: #f4f010;
+}
+a:active{
+    color: #00ea10
+}

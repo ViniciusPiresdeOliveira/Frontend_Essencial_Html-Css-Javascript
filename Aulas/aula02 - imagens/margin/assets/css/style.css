@@ -3,4 +3,21 @@ body{
 }
 .margin{
     border: 2px solid #333;
+    margin: 5rem;
+    /* margin: 5rem 10rem; */
+    /* 1º valor para a parte de cima e parte de baixo */
+    /* 2º valor para o lado direito e lado esquerdo  */
+
+    /* margin-top: 5rem;
+    margin-right: 10rem;
+    margin-bottom: 15rem;
+    margin-left: 20rem; */
+    /* Idêntico ao de cima, mas em sentido horário */
+    /* margin: 5rem 10rem 15rem 20rem; */
+
+}
+.padding{
+    border: 2px solid #333;
+    padding: 0.4rem;
+
 }
