@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-image: url(../assets/image/pets.jpg);
+
+
+}
+h1{
+    color: #d09705;
+    text-align: center;
+    background-color: #000;
+}
+p{
+    color: #000;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-indent: 30px;
+    line-height: 30px;
+    word-spacing: 0.3px;
+}
+img{
+    width: 150px;
+    height: auto;
+
+}
+div{
+    background-color: rgba(255, 255, 255, 0.75);
+
+}

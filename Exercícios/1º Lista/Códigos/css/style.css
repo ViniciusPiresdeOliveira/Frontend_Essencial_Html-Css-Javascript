@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold  
+}
+img{
+    width: 10%; 
+    border-radius: 50%;
+}
