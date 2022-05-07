@@ -1,24 +1,76 @@
 table,tr,td,th{
-    text-align: center;
     border: 2px solid #333; 
+    margin:auto;
+
+}
+.logo{
+    width: 50rem;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 .miniPC{
-    width: 50px;
-    height: 50px;
+    width: 10rem;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 .pedcomp{
+    text-align: center;
     background-color: #76a6e8;
-    font-weight: bold
+    font-weight: bold;
+}
+.data{
+    text-align: right;
+    font-weight: bold;
 }
 .cliente{
-    font-weight: bold
+    text-align: center;
+    font-weight: bold;
 }
 .email{
-    font-weight: bold
+    text-align: center;
+    font-weight: bold;
+}
+.contato{
+    text-align: center;
+    font-weight: bold;
+}
+.telefone{
+    text-align: center;
+    font-weight: bold;
 }
 .vazio{
-    border: 0px;
+    padding: 10px;
 }
 .descr{
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
+    background-color: #76a6e8;
+}
+.valor{
+    font-weight: bold;
+    text-align: center;
+    background-color: #76a6e8;
+}
+.qtde{
+    font-weight: bold;
+    text-align: center;
+    background-color: #76a6e8;
+}
+.valortot{
+    font-weight: bold;
+    text-align: center;
+    background-color: #76a6e8;
+}
+.vtc{
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    background-color: #7d7171;
+}
+.renda{
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    background-color: #7d7171;
 }
