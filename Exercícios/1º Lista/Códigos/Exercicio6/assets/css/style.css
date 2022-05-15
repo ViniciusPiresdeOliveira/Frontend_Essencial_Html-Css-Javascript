@@ -1,0 +1,26 @@
+.titulo{
+    background-color: #333;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.subtitulo{
+    background-color: khaki;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.nome-lista{
+    font-weight: bold;
+    font-size: 20px;
+}
+.imagem-cafe{
+    margin-left: 22px;
+    margin-top: 10px;
+    width: 35%;
+}
+.informacoes{
+    margin-left: 22px;
+}
