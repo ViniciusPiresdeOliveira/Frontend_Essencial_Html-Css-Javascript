@@ -59,11 +59,9 @@ header a:hover{
 .descricao {
     text-align: center;
 }
-
 .titulosecao {
-    margin-left: 29px;
+    text-align: center;
 }
-
 .alinhamento {
     display: flex;
     justify-content: center;
@@ -106,7 +104,6 @@ header a:hover{
 
 .cards p {
     text-align: center;
-    border-top: 1px solid #333;
     padding: 10px;
 }
 
@@ -236,5 +233,9 @@ footer p:first-child{
     }
     footer{
         align-items: flex-end;
+    }
+    .titulosecao {
+        text-align: left;
+        margin-left: 29px;
     }
 }
