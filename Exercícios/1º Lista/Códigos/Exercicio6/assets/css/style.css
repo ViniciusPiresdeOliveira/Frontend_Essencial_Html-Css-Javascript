@@ -8,9 +8,13 @@ h1{
 .subtitulo{
     background-color: khaki;
 }
+.container{
+    margin-left: 30px;
+}
 h2{
     text-align: center;
     color: black;
+    font-size: 22px;
 }
 .nome-lista{
     font-weight: bold;
@@ -19,8 +23,18 @@ h2{
 .imagem-cafe{
     margin-left: 22px;
     margin-top: 10px;
-    width: 35%;
+    width: 25%;
 }
-.informacoes{
+.subtitulo2{
+    font-size: 22px;
     margin-left: 22px;
+}
+.lista{
+    list-style-type: circle;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.lista2{
+    margin-left:20px;
+    font-size: 20px;
 }
