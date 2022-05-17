@@ -1,0 +1,56 @@
+header {
+  background-color: #f4f3ef;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  opacity: 0.7;
+}
+header a {
+  color: #1b49ed;
+  text-decoration: none;
+  transition: 0.25s;
+  font-family: "Blood";
+  padding: 5px;
+  border-radius: 5px;
+}
+header a:hover {
+  color: #f4f3ef;
+  background-color: #1b49ed;
+}
+.logo:hover{
+  background-color: inherit;
+}
+header img {
+  width: 150px;
+}
+.titulo {
+  color: rgba(8, 97, 161, 0.924);
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Blood";
+}
+.navegacao {
+  display: flex;
+  gap: 35px;
+  margin: 0;
+}
+.navegacao li {
+  color: rgba(8, 97, 161, 0.924);
+  list-style: none;
+}
+@media screen and (min-width: 992px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .titulo {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+}

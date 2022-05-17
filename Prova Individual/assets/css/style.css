@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e3e3d7;
+    position: relative;
+}
+header,
+footer {
+    background-color: black;
+    padding: 10px 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    text-shadow: 0 0 1em white;
+    margin-top: -2px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 34px;
+}
+
+.titulo:hover {
+    text-shadow: 0 0 1em white;
+}
+
+.navegacao {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.main {
+    padding-top: 96px;
+}
+
+.navegacao li {
+    color: #fff;
+    list-style: none;
+}
+
+.redes {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 1rem;
+    padding-top: 25px;
+    gap: 10px;
+}
+
+.apresentacao {
+    text-align: center;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.titulosecao {
+    text-align: center;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: center;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0 100px;
+}
+
+.cards .container-botao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bandas {
+    font-size: 20px;
+}
+
+.linha {
+    height: 2px;
+    width: 96%;
+    margin: auto;
+    background-color: black;
+}
+
+.cards {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 0 1em black;
+    transition: transform 0.25s linear;
+    background-color: #e3e3d7;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+.cards img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.cards p {
+    text-align: center;
+    padding: 10px;
+}
+
+.cards a {
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 6px;
+}
+
+.cards a:hover {
+    background-color: black;
+    box-shadow: 0px 0px 20px black;
+    transform: translate(0px, -2px);
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.foto-nova {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.foto-nova img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px black;
+    transition: transform 0.15s linear;
+
+}
+
+.foto-nova img:hover {
+    transform: scale(1.1);
+    
+}
+
+.foto p {
+    font-weight: 700;
+    margin-top: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.container-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    margin: 20px auto;
+
+}
+
+.container-news h3 {
+    width: 95%;
+    text-align: center;
+}
+
+.container-news .formulario {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container-news .formulario input:not(input[type="checkbox"]) {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-news .formulario .check {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.container-news .formulario .check input {
+    margin-right: 10px;
+}
+
+.container-news .formulario .botao {
+    background-color: black;
+    color: #fff;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+footer {
+    color: #fff;
+    margin-top: 50px;
+}
+
+footer p:first-child {
+    margin-bottom: 8px;
+}
+
+.creditos {
+    text-align: center;
+    margin-bottom: 11px;
+    font-size: 18px;
+}
+
+.copyright {
+    font-style: italic;
+}
+
+@media screen and (min-width:500px) {
+    .container-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    header,
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .titulo {
+        margin-bottom: 0;
+    }
+
+    .redes img {
+        width: 2rem;
+    }
+
+    .container-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards {
+        margin: 10px 0;
+    }
+
+    .foto {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px 20px;
+
+    }
+
+    .foto p {
+        margin-left: 100px;
+        margin-top: 0;
+    }
+
+    .container-news .formulario {
+        padding: 50px 50px 30px;
+    }
+
+    footer {
+        align-items: flex-end;
+    }
+
+    .titulosecao {
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+        margin-left: 29px;
+    }
+
+    .creditos {
+        text-align: left;
+    }
+    .main {
+        padding-top: 60px;
+    }
+}
